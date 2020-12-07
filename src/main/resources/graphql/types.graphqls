@@ -1,0 +1,5 @@
+type Poet{
+    row_num:int
+    poetName:String
+    eraORcountry:String
+}
