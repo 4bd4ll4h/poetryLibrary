@@ -1,4 +1,4 @@
-package org.poetryLibrary.SQLServerRepository.Entities;
+package org.poetryLibrary.api.module.java.Entities;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;

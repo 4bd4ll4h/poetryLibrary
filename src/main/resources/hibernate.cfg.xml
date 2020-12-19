@@ -14,13 +14,13 @@
         <!-- DB schema will be updated if needed -->
         <!-- <property name="hbm2ddl.auto">update</property> -->
 
-        <mapping class="org.poetryLibrary.SQLServerRepository.Entities.album"/>
-        <mapping class="org.poetryLibrary.SQLServerRepository.Entities.AlbumPoem"/>
-        <mapping class="org.poetryLibrary.SQLServerRepository.Entities.bar"/>
-        <mapping class="org.poetryLibrary.SQLServerRepository.Entities.BarsOnly"/>
-        <mapping class="org.poetryLibrary.SQLServerRepository.Entities.PoemInfo"/>
-        <mapping class="org.poetryLibrary.SQLServerRepository.Entities.Poem"/>
-        <mapping class="org.poetryLibrary.SQLServerRepository.Entities.Poet"/>
+        <mapping class="org.poetryLibrary.api.module.java.Entities.Album"/>
+        <mapping class="org.poetryLibrary.api.module.java.Entities.AlbumPoem"/>
+        <mapping class="org.poetryLibrary.api.module.java.Entities.BarFromPoem"/>
+        <mapping class="org.poetryLibrary.api.module.java.Entities.Poem"/>
+        <mapping class="org.poetryLibrary.api.module.java.Entities.PoemInfo"/>
+        <mapping class="org.poetryLibrary.api.module.java.Entities.PoemList"/>
+        <mapping class="org.poetryLibrary.api.module.java.Entities.Poet"/>
 
         <!-- DB schema will be updated if needed -->
         <!-- <property name="hbm2ddl.auto">update</property> -->

@@ -1,0 +1,47 @@
+#eraORcountry=البلد او العصر الذي عاش فيه الشاعر
+type Poet{
+    row_num:Int!
+    poetName:String
+    eraORcountry:String
+}
+type PoemList{
+    row_num:Int!
+    poemName:String
+    albumName:String
+    poetName:String
+    }
+type Poem{
+    row_num:Int!
+    startBar:String
+    endBar:String
+}
+type PoemInfo{
+    row_num:String
+    poemName:String
+    albumName:String
+    poetName:String
+    poemType:String
+    barsCount:String
+}
+type BarFromPoem{
+    row_num:Int!
+    startBar:String
+    endBar:String
+    poemName:String
+    poetname:String
+}
+type AlbumPoem{
+    poemName:String
+    poemType:String
+
+}
+type Album{
+    id:Int
+    albumName:String
+    albumPoems:[AlbumPoem]
+}
+
+type PoetInfo{
+    poet:Poet
+    album:[Album]
+}

@@ -7,7 +7,6 @@ import org.springframework.context.annotation.ComponentScan;
 
 
 @SpringBootApplication
-@ComponentScan(basePackageClasses = PoetryLibraryApplication.class)
 
 public class PoetryLibraryApplication {
 

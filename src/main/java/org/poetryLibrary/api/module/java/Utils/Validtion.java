@@ -1,4 +1,4 @@
-package org.poetryLibrary.SQLServerRepository.Utils;
+package org.poetryLibrary.api.module.java.Utils;
 
 import java.text.Normalizer;
 import java.util.concurrent.ThreadLocalRandom;

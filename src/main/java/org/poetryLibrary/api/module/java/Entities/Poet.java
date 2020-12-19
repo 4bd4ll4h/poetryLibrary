@@ -1,4 +1,4 @@
-package org.poetryLibrary.SQLServerRepository.Entities;
+package org.poetryLibrary.api.module.java.Entities;
 
 import javax.persistence.*;
 import java.io.Serializable;
@@ -9,7 +9,7 @@ public class Poet implements Serializable {
 
     @Id
     @Column(name = "id")
-    Integer row_num;
+    int row_num;
 
     @Column(name = "poetName")
     private String poetName;

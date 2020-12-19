@@ -1,4 +1,4 @@
-package org.poetryLibrary.SQLServerRepository.Repository;
+package org.poetryLibrary.api.module.java.Repository;
 
 import org.hibernate.SessionFactory;
 import org.hibernate.cfg.Configuration;

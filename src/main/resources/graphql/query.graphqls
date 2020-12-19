@@ -1,7 +1,10 @@
-schema{
-    query:Query
-}
+#return 100 poet in each requst
+#The page agrument is  (1-6) for now 2020!
 type Query{
-
-    AllPoet(page:Integer):[Poet]
+ AllPoet(page:Int):[Poet]
+ AllPoem(page:Int):[PoemList]
+ Poem(poemName:String):[Poem]
+ PoemInfo(poemName:String):[PoemInfo]
+ RandomBarFromPoem:BarFromPoem
+ PoetInfo(poetName:String):PoetInfo
 }

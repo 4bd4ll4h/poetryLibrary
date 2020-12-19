@@ -1,14 +1,14 @@
-package org.poetryLibrary.SQLServerRepository.Entities;
+package org.poetryLibrary.api.module.java.Entities;
 
 
 import java.io.Serializable;
-import java.util.ArrayList;
 import java.util.List;
+
 
 public class PoetInfo implements Serializable {
 
     private Poet poet=new Poet();
-    private List<album> album;
+    private List<Album> album;
 
     public PoetInfo() {
 
@@ -22,11 +22,11 @@ public class PoetInfo implements Serializable {
         this.poet = poet;
     }
 
-    public List<org.poetryLibrary.SQLServerRepository.Entities.album> getAlbum() {
+    public List<Album> getAlbum() {
         return album;
     }
 
-    public void setAlbum(List<org.poetryLibrary.SQLServerRepository.Entities.album> album) {
+    public void setAlbum(List<Album> album) {
         this.album=album;
     }
 }

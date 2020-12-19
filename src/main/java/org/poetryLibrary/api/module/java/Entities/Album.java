@@ -1,4 +1,4 @@
-package org.poetryLibrary.SQLServerRepository.Entities;
+package org.poetryLibrary.api.module.java.Entities;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
@@ -9,7 +9,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 @Entity
-public class album implements Serializable {
+public class Album implements Serializable {
+    //divan
     @Id
     private Integer id;
 
@@ -19,11 +20,11 @@ public class album implements Serializable {
     @Transient
     private List<AlbumPoem> albumPoems=new ArrayList<AlbumPoem>();
 
-    public album(String poem_with_no_album) {
+    public Album(String poem_with_no_album) {
         albumName=poem_with_no_album;
     }
 
-    public album() {
+    public Album() {
     }
 
     public List<AlbumPoem> getAlbumPoems() {
